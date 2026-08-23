@@ -7,8 +7,6 @@ Panel webowy do monitorowania połączeń przychodzących przez FreePBX/Asterisk
 - live monitoring aktywnego połączenia
 - animowany dzwonek przy połączeniu
 - numer telefonu i Caller ID
-- integracja z lokalną tabelą `odebractelefon_cache`
-- rating i statystyki z OdebracTelefon.pl
 - historia połączeń
 - własna nazwa numeru
 - własna informacja/notatka
@@ -50,8 +48,6 @@ return array(
     'db_pass' => 'HASLO',
 );
 ```
-
-Nie umieszczaj prawdziwego hasła w publicznym repozytorium GitHub.
 
 ## Baza
 
