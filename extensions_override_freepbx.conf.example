@@ -1,0 +1,18 @@
+; ============================================================
+; Wstawienie live-call po Superfecta
+; ============================================================
+;
+; W Twojej konfiguracji:
+; ext-did-0001
+; po:
+; Set(CALLERID(name)=${lookupcid})
+;
+; dodaj:
+;
+; same => n,NoOp(=== LIVE CALL HOOK ===)
+; same => n,Gosub(live-call,s,1)
+;
+; Nie edytuj ręcznie extensions_additional.conf,
+; ponieważ FreePBX może go wygenerować ponownie.
+;
+; ============================================================
