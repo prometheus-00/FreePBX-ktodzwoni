@@ -22,7 +22,7 @@
 $db_host = 'localhost';
 $db_name = 'asterisk';
 $db_user = 'freepbxuser';
-$db_pass = 'eEmtb2fid6eQ';
+$db_pass ='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
 
 
 /* ============================================================
