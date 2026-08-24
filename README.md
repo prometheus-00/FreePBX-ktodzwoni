@@ -164,7 +164,7 @@ Jeżeli pojawi się połączenie, panel prezentuje między innymi:
 🔔 POŁĄCZENIE PRZYCHODZĄCE
 
 Jan Kowalski
-+48 668 190 504
++48 6XX xxx XXX
 
 🟢 POZYTYWNY
 ```
@@ -208,7 +208,7 @@ Numer nie musi wcześniej dzwonić.
 Można ręcznie dodać np.:
 
 ```text
-668190504
+66XxxxXXX
 ```
 
 i przypisać:
@@ -329,7 +329,7 @@ Przykład:
 
 ```text
 Jan Kowalski
-+48 668 190 504
++48 6XX xxx XXX
 
 Połączenia: 7
 Ostatnie: 2026-08-23 19:30:17
@@ -374,7 +374,7 @@ Przykładowo:
 
 ```text
 Jan Kowalski
-+48 668 190 504
++48 XXX xxx XXX
 
 🟢 POZYTYWNY
 
@@ -574,7 +574,7 @@ Przykład:
 ```json
 {
     "active": true,
-    "number": "668190504",
+    "number": "XXXxxxXXX",
     "display_name": "Jan Kowalski",
     "sentiment": "positive"
 }
@@ -1060,7 +1060,7 @@ Format katalogu:
 <CiscoIPPhoneDirectory>
     <DirectoryEntry>
         <Name>Jan Kowalski</Name>
-        <Telephone>668XXXxxx</Telephone>
+        <Telephone>68XXXxxx</Telephone>
     </DirectoryEntry>
 </CiscoIPPhoneDirectory>
 ```
