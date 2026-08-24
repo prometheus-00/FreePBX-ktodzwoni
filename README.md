@@ -437,7 +437,7 @@ Przykład:
 <CiscoIPPhoneDirectory>
     <DirectoryEntry>
         <Name>Jan Kowalski</Name>
-        <Telephone>668190504</Telephone>
+        <Telephone>6xxXXXxxx</Telephone>
     </DirectoryEntry>
 </CiscoIPPhoneDirectory>
 ```
@@ -469,16 +469,16 @@ Numer jest normalizowany.
 Przykłady:
 
 ```text
-668190504
-+48 668 190 504
-48668190504
-0048668190504
+xxxXXXxxx
++48 xxx XXX xxx
+48xxxXXXxxx
+0048xxxXXXxxx
 ```
 
 są sprowadzane do:
 
 ```text
-668190504
+xxxXXXxxx
 ```
 
 Dzięki temu system może odnaleźć istniejący wpis niezależnie od sposobu prezentowania numeru przez operatora lub urządzenie.
@@ -711,8 +711,8 @@ Przykład:
 ```text
 1787506216.296
 PJSIP/goip1-00000052
-668190504
-48668190504
+xxxXXXxxx
+48xxxXXXxxx
 2026-08-23 19:30:17
 ```
 
@@ -786,7 +786,7 @@ checked_at
 Przykład:
 
 ```text
-+48 668 190 504
++48 xxx XXX xxx
 ```
 
 ---
@@ -811,9 +811,9 @@ live-call.php
 ## 4. Numer zostaje znormalizowany
 
 ```text
-+48 668 190 504
++48 668 XXX xxx
         ↓
-668190504
+668XXXxxx
 ```
 
 ---
@@ -876,7 +876,7 @@ Przykład:
 🔔 POŁĄCZENIE PRZYCHODZĄCE
 
 Jan Kowalski
-+48 668 190 504
++48 668 XXX xxx
 
 🟢 POZYTYWNY
 
@@ -1060,7 +1060,7 @@ Format katalogu:
 <CiscoIPPhoneDirectory>
     <DirectoryEntry>
         <Name>Jan Kowalski</Name>
-        <Telephone>668190504</Telephone>
+        <Telephone>668XXXxxx</Telephone>
     </DirectoryEntry>
 </CiscoIPPhoneDirectory>
 ```
@@ -1138,7 +1138,7 @@ Aktywne połączenie powinno zwrócić:
 ```json
 {
     "active": true,
-    "number": "668190504"
+    "number": "668XXXxxx"
 }
 ```
 
