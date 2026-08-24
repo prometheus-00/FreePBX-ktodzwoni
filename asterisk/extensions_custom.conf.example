@@ -1,0 +1,10 @@
+[live-call]
+exten => s,1,NoOp(=== LIVE CALL IDENTIFICATION ===)
+ same => n,AGI(/var/www/html/telefon/live-call.php)
+ same => n,Set(CHANNEL(hangup_handler_push)=live-call-hangup,s,1(${UNIQUEID}))
+ same => n,Return()
+
+[live-call-hangup]
+exten => s,1,NoOp(=== LIVE CALL HANGUP ===)
+ same => n,AGI(/var/www/html/telefon/live-call-hangup.php,${ARG1})
+ same => n,Return()
